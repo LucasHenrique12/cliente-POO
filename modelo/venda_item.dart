@@ -7,19 +7,5 @@ class VendaItem
 
   VendaItem({this.produto,this.quantidade=1});
 
-  int get preco{
-    if(produto !=null)
-    {
-      _preco==produto.precoComDesconto;
-    }
-    return _preco;
+  
   }
-
-  void set preco(double novoPreco)
-  {
-    if(novoPreco>0)
-    {
-      _preco=novoPreco;
-    }
-  }
-}

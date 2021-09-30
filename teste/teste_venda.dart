@@ -41,5 +41,5 @@ main()
 
       print("o valor é de ${venda.valorTotal}");
      
-      //print(venda.itens[0].quantidade);
+      
 }

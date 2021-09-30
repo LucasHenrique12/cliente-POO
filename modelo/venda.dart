@@ -10,7 +10,7 @@ Venda({this.cliente,this.itens = const[]});
 
 double get valorTotal{
   return itens
- .map((item) => item.quantidade * item.preco)
+ .map((item) => item.quantidade * item.produto.preco)
   .reduce((t, a) => t+a);
   
 }
